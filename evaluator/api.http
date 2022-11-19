@@ -19,7 +19,7 @@ Host: {{hostname}}
 
 ### 
 # @name dataset_test
-GET {{path_prefix}}/example/bene/news_qa HTTP/1.1
+GET {{path_prefix}}/example/bene/quartz HTTP/1.1
 Host: {{hostname}}
 
 ### 
