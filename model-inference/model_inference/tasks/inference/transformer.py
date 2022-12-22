@@ -835,6 +835,7 @@ class Transformer(Model):
                     )
                     task_outputs["attributions"] = word_imp
                 else:  # bertviz case
+                    logger.info("!!!!!!! Reached bertviz case !!!!!!!!!!!")  # TODO: Delete after
                     # TODO: test
                     attention = predictions["attention"]  # get attention
                     # get tokens
